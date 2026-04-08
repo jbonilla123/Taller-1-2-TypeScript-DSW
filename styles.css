@@ -1,0 +1,26 @@
+h2 {
+    background-color: #17a2b8;
+    color: black;
+    padding: 10px;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.series-link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.series-link:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}
