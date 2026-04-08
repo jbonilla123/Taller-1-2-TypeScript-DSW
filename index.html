@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Series</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        
+        <h2>
+            TV Series
+        </h2>
+
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Channel</th>
+                    <th>Seasons</th>
+                </tr>
+            </thead>
+            <tbody id="series-body">
+            </tbody>
+        </table>
+
+        <p>
+            <strong id="promedio"></strong>
+        </p>
+
+    </div>
+    <script type="module" src="./dist/Serie.js"></script>
+    <script type="module" src="./dist/dataSerie.js"></script>
+    <script type="module" src="./dist/main.js"></script>
+
+</body>
+</html>
