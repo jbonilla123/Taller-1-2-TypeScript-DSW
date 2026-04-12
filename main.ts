@@ -35,7 +35,6 @@ function showDetail(serie: Serie): void {
             </div>
         </div>
     `;
-    console.log("IMAGEN",serie.image);
 }
 
 function calcularPromedio(series: Serie[]): number {

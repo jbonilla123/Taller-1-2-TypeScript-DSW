@@ -29,7 +29,6 @@ function showDetail(serie) {
             </div>
         </div>
     `;
-    console.log("IMAGEN", serie.image);
 }
 function calcularPromedio(series) {
     let total = 0;
